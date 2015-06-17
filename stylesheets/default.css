@@ -1,72 +1,26 @@
-h1 {
-  color: #999;
-  font-size: 45px;
-  font-family: Tahoma, sans-serif;
-}
-
-#menu {
-    width: 550px;
-    height: 35px;
-    font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: #BBD8FF;
-    border-radius: 8px;
-}
-
-#menu ul {
-  height: auto;
-  padding: 8px 0px;
-  margin: 0px;
-}
-
-#menu li {
-  display: inline;
-  padding: 30px;
-}
-
-#menu a:hover {
-   color: #999;
-   background-color: #FFF;
-}
-
-h3 {
-  font-family: Tahoma, sans-serif;
-  color: #999;
-}
-
-h4 {
-  color: #999;
-  font-family: Tahoma, sans-serif;
+.sky-background {
+	position: fixed;
+	left: 0px;
+	top: -146px;
+	width: 1050px;
+	height: 697px;
+	bottom: auto;
+	right: auto
 }
 
 p {
-  font-family: Tahoma, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	color: black;
+	padding: 0;
+	font-family: Helvetica, sans-serif;
 }
 
-a {
-  color: #888;
+.content ul {
+	list-style: none;
 }
 
-#social {
-    width: 550px;
-    height: 35px;
-    font-size: 16px;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: white;
-    border-radius: 8px;
-}
-
-#social ul {
-  height: auto;
-  padding: 8px 0px;
-  margin: 0px;
-}
-
-#social li {
-  display: inline;
-  padding: 40px;
+.content li {
+	display: inline;
+	padding: 40px;
 }
