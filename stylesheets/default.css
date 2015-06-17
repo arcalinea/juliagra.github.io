@@ -1,0 +1,72 @@
+h1 {
+  color: #999;
+  font-size: 45px;
+  font-family: Tahoma, sans-serif;
+}
+
+#menu {
+    width: 550px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #BBD8FF;
+    border-radius: 8px;
+}
+
+#menu ul {
+  height: auto;
+  padding: 8px 0px;
+  margin: 0px;
+}
+
+#menu li {
+  display: inline;
+  padding: 30px;
+}
+
+#menu a:hover {
+   color: #999;
+   background-color: #FFF;
+}
+
+h3 {
+  font-family: Tahoma, sans-serif;
+  color: #999;
+}
+
+h4 {
+  color: #999;
+  font-family: Tahoma, sans-serif;
+}
+
+p {
+  font-family: Tahoma, sans-serif;
+}
+
+a {
+  color: #888;
+}
+
+#social {
+    width: 550px;
+    height: 35px;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#social ul {
+  height: auto;
+  padding: 8px 0px;
+  margin: 0px;
+}
+
+#social li {
+  display: inline;
+  padding: 40px;
+}
