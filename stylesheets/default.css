@@ -15,6 +15,7 @@ p {
 	color: black;
 	padding: 0;
 	font-family: Helvetica, sans-serif;
+	color: black;
 }
 
 .content p {
@@ -30,4 +31,64 @@ p {
 .content li {
 	display: inline;
 	padding: 40px;
+}
+
+li {
+	font-family: Helvetica, Sans-Serif;
+	color: darkblue;
+}
+
+#Email {
+	position: absolute;
+	right: 90px;
+	bottom: 100px;
+	margin-left: 30px;
+}
+
+#GitHub {
+	position: absolute;
+	right: 160px;
+	bottom: 100px;
+	margin-left: 30px;
+}
+
+#LinkedIn {
+	position: absolute;
+	right: 250px;
+	bottom: 100px;
+	margin-left: 30px;
+}
+
+#Twitter {
+	position: absolute;
+	right: 350px;
+	bottom: 100px;
+	margin-left: 30px;
+}
+
+#social-menu {
+	position: absolute;
+	left: 30px;
+	top: 20px;
+	z-index: 3;
+}
+
+.menu {
+	width: 550px;
+	height: 35px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: gray;
+}
+
+.menu ul {
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+.menu li {
+	display: inline;
+	padding: 30px;
 }
