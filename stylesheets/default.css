@@ -38,6 +38,7 @@ li {
 	color: darkblue;
 }
 
+/**
 #Email {
 	position: absolute;
 	right: 90px;
@@ -65,13 +66,7 @@ li {
 	bottom: 100px;
 	margin-left: 30px;
 }
-
-#social-menu {
-	position: absolute;
-	left: 30px;
-	top: 20px;
-	z-index: 3;
-}
+**/
 
 .menu {
 	width: 550px;
@@ -89,6 +84,11 @@ li {
 }
 
 .menu li {
+	display: inline;
+	padding: 30px;
+}
+
+#social-menu ul li {
 	display: inline;
 	padding: 30px;
 }
