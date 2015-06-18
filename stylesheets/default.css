@@ -68,3 +68,9 @@ li {
 	padding: 10px;
 }
 
+.logo img {
+	z-index: 3;
+	display: absolute;
+	right: 90px;
+	bottom: 350px;
+}
