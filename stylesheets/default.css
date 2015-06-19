@@ -19,12 +19,6 @@ p {
 	font-family: Helvetica, sans-serif;
 }
 
-.content p {
-	position: absolute;
-	right: 90px;
-	bottom: 250px;
-}
-
 .content ul {
 	list-style: none;
 }
@@ -46,9 +40,10 @@ li {
 	font-weight: bold;
 	text-align: center;
 	background-color: #D4D9FA;
-	right: 80px;
 	position: absolute;
-	bottom: 100px;
+	left: 55%;
+	bottom: 20%;
+	transform: translate(0, -50%);
 }
 
 .menu ul {
@@ -80,5 +75,23 @@ div .logo img {
 	position: absolute;
 	left: 40%;
 	top: 30%;
+	transform: translate(0, -50%);
+}
+
+.logo p {
+	position: absolute;
+	margin: 0;
+	left: 40%;
+	bottom: 35%;
+	transform: translate(0, -50%);
+}
+
+#pyramid img {
+    height: 3em;
+    width: 3em;
+    position: absolute;
+    margin: 0;
+	left: 40%;
+	bottom: 35%;
 	transform: translate(0, -50%);
 }
