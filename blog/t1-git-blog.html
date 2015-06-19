@@ -2,31 +2,51 @@
 <head>
   <title>Version Control: Git and GitHub</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
-</head>
+   <link rel="stylesheet" type="text/css" href="/stylesheets/blogtemplate.css">
+ </head>
 
 <main>
-  <h1>Version Control: Git and GitHub</h1>
-  <h4>June 11, 2015</h4>
+  <img class="sky-background" src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/background.jpg">
 
-  <section>
-    <h4> Why Version Control? </h4>
-    <p>
-      Software is incredibly complex. Tiny changes, like that missing semicolon, can totally break your program. When you multiply the complexity of code across many programmers all making changes at the same time, you get incredible chaos. Or you would, without version control. Version control makes it possible for programmers to collaborate on large projects made up of many interlocking parts. Each change is tracked, along with who made it and when. It's easy to revert to earlier versions of a project, so if something breaks, you can always go back to a working copy. Version control also allows people to work on new features in separate branches that can be tested before being integrated back into the main body of code. This creation of "parallel universes" allows you to test out as many versions of your project as you like before committing to a final version.
-    </p>
-    <h4> What is Git? </h4>
-    <p>
-       Git is one of the most widely used version control systems. You download git to your computer and run it from the command line. It is free software released under the GNU GPL, and was developed by Linux Torvalds for the Linux kernel in 2005. Git was created as a distributed system with strong safeguards against corruption in response to the needs of hundreds of developers who were contributing to the Linux kernel at the same time. As a distributed system, each person keeps a local copy of the project stored on their computer, and everyone continuously sends (pushes) changes to a remote, central version of the project. The changes to this central version are cloned to local machines. 
-    </p>
-    <h4> How Git works: </h4>
-    <p>
-       When someone pushes a change, it is saved as a "commit", which is a set of files with the state of the project at that time, tagged with a unique identifying set of characters. The entire history of a project can be tracked through the branching evolution of its committed changes. This information is stored by git in a data structure called a "repository", which is a .git file with a record of changes stored in the same directory as the project itself. The "master" repository is the main working version of the project. To add new features and make changes in parallel, git allows you to branch off from master and create new versions of the project. These branches can be merged back with the master once the changes are tested and approved. On group projects, it helps to have others approve the changes to make sure they are worth integrating into the master. 
-    </p>
-    <h4> What is GitHub? </h4>
-    <p>
-        GitHub is a company that maintains a website providing hosting service for git repositories. When working with a team using git, you push your changes to a remote web server. That web server can be GitHub, Heroku, or some other platform, depending on your needs. People are often confused by the difference between GitHub and git. Basically, git is a version control tool that you run on your own computer to keep track of code changes, with or without access to a web server. GitHub is an online platform that syncs up with git, and has developed into a thriving community of developers. It's a great place for people to collaborate on projects. With its user profile, starring, and following features, it functions like a social network based around code. Anyone can make a public repository for free, but to make a repository for private collaboration there's a monthly fee.
-    </p>
-    save
+  <article>
+    <h1>Version Control: Git and GitHub</h1>
+    <h4>June 11, 2015</h4>
+    <br>
 
-  </section>
+    <section>
+      <h4> Why Version Control? </h4>
+      <p>
+        Software is incredibly complex. Tiny changes, like that missing semicolon, can totally break your program. When you multiply the complexity of code across many programmers all making changes at the same time, you get incredible chaos. Or you would, without version control. Version control makes it possible for programmers to collaborate on large projects made up of many interlocking parts. Each change is tracked, along with who made it and when. It's easy to revert to earlier versions of a project, so if something breaks, you can always go back to a working copy. Version control also allows people to work on new features in separate branches that can be tested before being integrated back into the main body of code. This creation of "parallel universes" allows you to test out as many versions of your project as you like before committing to a final version.
+      </p>
+      <h4> What is Git? </h4>
+      <p>
+         Git is one of the most widely used version control systems. You download git to your computer and run it from the command line. It is free software released under the GNU GPL, and was developed by Linux Torvalds for the Linux kernel in 2005. Git was created as a distributed system with strong safeguards against corruption in response to the needs of hundreds of developers who were contributing to the Linux kernel at the same time. As a distributed system, each person keeps a local copy of the project stored on their computer, and everyone continuously sends (pushes) changes to a remote, central version of the project. The changes to this central version are cloned to local machines. 
+      </p>
+      <h4> How Git works: </h4>
+      <p>
+         When someone pushes a change, it is saved as a "commit", which is a set of files with the state of the project at that time, tagged with a unique identifying set of characters. The entire history of a project can be tracked through the branching evolution of its committed changes. This information is stored by git in a data structure called a "repository", which is a .git file with a record of changes stored in the same directory as the project itself. The "master" repository is the main working version of the project. To add new features and make changes in parallel, git allows you to branch off from master and create new versions of the project. These branches can be merged back with the master once the changes are tested and approved. On group projects, it helps to have others approve the changes to make sure they are worth integrating into the master. 
+      </p>
+      <h4> What is GitHub? </h4>
+      <p>
+          GitHub is a company that maintains a website providing hosting service for git repositories. When working with a team using git, you push your changes to a remote web server. That web server can be GitHub, Heroku, or some other platform, depending on your needs. People are often confused by the difference between GitHub and git. Basically, git is a version control tool that you run on your own computer to keep track of code changes, with or without access to a web server. GitHub is an online platform that syncs up with git, and has developed into a thriving community of developers. It's a great place for people to collaborate on projects. With its user profile, starring, and following features, it functions like a social network based around code. Anyone can make a public repository for free, but to make a repository for private collaboration there's a monthly fee.
+      </p>
+    </section>
+  </article>
+
+  <footer>
+    <div class="menu">
+        <ul>
+          <li id="blog">
+            <a href="http://juliagra.github.io/blog/bloghome.html">Blog</a>
+          </li>
+          <li id="illustrations">
+            <a href="#">Illustrations</a>
+          </li>
+          <li id="projects">
+            <a href="#">Projects</a>
+          </li>
+        </ul>
+    </div>
+  </footer>
+
 </main>
