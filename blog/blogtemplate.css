@@ -106,3 +106,12 @@ footer .menu ul li a:hover {
   text-decoration: none;
 	color: #0DAAFF
 }
+
+section ul li {
+	list-style-type: none;
+}
+
+blockquote {
+	font-style: italic;
+	margin-bottom: 0px;
+}
