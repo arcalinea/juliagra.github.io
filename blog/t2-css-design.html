@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <title>Title</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/blogtemplate.css">
+</head>
+
+<main>
+  <img class="sky-background" src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/background.jpg">
+
+  <article>
+    <h1>Relative, absolute, and fixed positioning</h1>
+    <h2></h2>
+    <h4>July 19, 2015</h4>
+    <br>
+
+    <section>
+      <h4>Positioning elements in CSS</h4>
+        <p>In the early days of the web, designers used html tables for laying out elements. That was a pain, since you had to rewrite the html whenever you wanted to change the layout. Luckily, today we have CSS styles for page layout. Here are some of your options for element positioning: static relative, absolute, and fixed. What's the difference?  </p>
+
+      <h4>Static</h4>
+        <p>This is the default for page elements, and means that it just flows in the page as normal. You'll only use static to override positioning that was set elsewhere, which is fairly rare because positioning is not a property that cascades.</p>
+        <img src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/Demo_Static.png" alt="Static"/>
+        <p>This is where all our boxes start out. Their position right now is determined by their order in the html. </p>
+
+      <h4>Relative</h4>
+        <p>An element with relative positioning is placed "relative to itself" for the values you provide. For example, if you specify the relative position as "top: 10px;" the element will move 10px down from where it already is. Unlike with absolute positioning, other elements in the flow of the page will still behave like a relatively positioned object has kept its place. Let's take a look at some demo images.</p>
+          <img src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/Demo_Relative.png" alt="Relative"/>
+        <p>See how the pink box moved 30px away from the left and bottom border of where it used to be, leaving a space? The other boxes politely stay put.</p>
+
+        <p>Note: Relative positioning also allows you to use the z-index to set the overlap of an element. A higher number of z-index puts the element on top of other elements.</p>
+          <img src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/Demo_Z-index.png" alt="Z-index"/>
+        <p>I gave the first box a z-index of 2, which is higher than 0, the default z-index of all the other boxes I didn't edit. Since I gave it the highest z-index and set its position to relative, it leaps to the top. Without relative positioning, it would not move.</p>
+
+      <h4>Absolute</h4>
+        <p>An element with absolute positioning can be placed anywhere you want on the page with attributes for top, left, bottom, and right set relative to the browser window. Absolute positioning is good when you want to specify exactly where you want an element on the page, and don't want other elements to interfere with it. It removes the object from the flow of the page, so other elements will act like it's not there.</p>
+          <img src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/Demo_Absolute.png" alt="Absolute"/>
+        <p>In the image above, I set the position of the third box to 0px "absolute" from the left and top, so it moves to the upper left corner of the browser window. It wouldn't move from its spot if the position were set to relative. Notice how the other boxes ignore its new position and are covered up.</p>
+
+      <h4>Fixed</h4>
+        <p>An element with fixed positioning is placed relative to the visitor's browser window, so it will stay put when the page is scrolled. This is usually used for navigation bars or footers. A drawback is that on smaller sized screens, content can be cut off or overlap in awkward ways, so this positioning needs to be thoroughly tested.</p>
+        <img src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/Demo_Fixed1.png" alt="Fixed1"/>
+        <p>I gave box 3a a fixed position that's 50px from the left, 0px from the bottom. Now it's hugging the bottom of the browser window, and will stay put even when we scroll or adjust the screen size.</p>
+        <img src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/Demo_Fixed2.png" alt="Fixed2"/>
+        <p>I scrolled down. Box 3a clings to the bottom of the screen. Perfect for a footer navigation bar.</p>
+
+      <h4>Inherit</h4>
+        <p>Inherit means your element will take the position of its parent element, no matter what its position values are. (In the tree-like structure of html, parent elements contain child elements that are nested within.)</p>
+        <img src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/Demo_Inherit.png" alt="Inherit"/>
+        <p>Box 3a still has instructions to position itself 50px from the left and 0px from the bottom, but setting its position to inherit overrides that and gives it the same position as its parent element, Box 3.</p>
+
+        <p>Combining these positioning options in CSS can create a wide variety of page layouts. Other properties, such as float and new values in CSS3, can also change the position of elements, but that's beyond the scope of this post.</p>
+    </section>
+  </article>
+
+
+  <footer>
+    <div class="menu">
+        <ul>
+          <li id="blog">
+            <a href="http://juliagra.github.io/blog/bloghome.html">Blog</a>
+          </li>
+          <li id="illustrations">
+            <a href="#">Illustrations</a>
+          </li>
+          <li id="projects">
+            <a href="#">Projects</a>
+          </li>
+        </ul>
+    </div>
+  </footer>
+
+</main>
