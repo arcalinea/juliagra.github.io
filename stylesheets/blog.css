@@ -83,7 +83,7 @@ h3 {
 }
 
 footer .menu {
-    width: 400px;
+    width: 450px;
     height: 35px;
     font-family: Helvetica,sans-serif;
     font-weight: bold;
@@ -104,7 +104,7 @@ footer .menu ul {
 
 footer .menu ul li {
   display: inline;
-  padding: 25px;
+  padding: 20px;
 }
 
 footer .menu ul li a:link {
