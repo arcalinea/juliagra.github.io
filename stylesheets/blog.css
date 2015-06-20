@@ -50,8 +50,8 @@ h3 {
 	left: 20%;
 	top: 0%;
 	opacity: 0.8;
-  line-height: 1.3em;
-  padding-top: 20px;
+	line-height: 1.3em;
+	padding-top: 20px;
 }
 
 #posts ul li a:link {
@@ -64,10 +64,10 @@ h3 {
 }
 
 #pyramid img {
-  height: 10em;
-  width: 10em;
-  position: absolute;
-  margin: 0;
+	height: 10em;
+	width: 10em;
+	position: absolute;
+	margin: 0;
 	right: 15%;
 	bottom: 35%;
 	transform: translate(0, -50%);
@@ -97,24 +97,23 @@ footer .menu {
 
 footer .menu ul {
 	position: relative;
-  height: auto;
-  padding: 0px;
-	padding-top: 10px;
-  margin: 11px;
+	height: auto;
+	padding: 0px;
+	padding-top: 3px;
+	margin: 11px;
 }
 
 footer .menu ul li {
-  text-align: left;
-  padding-top: 4px;
+	text-align: left;
+	padding-top: 6px;
 	padding-left: 6px;
 	list-style-type: none;
 }
-
 footer .menu ul li a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 footer .menu ul li a:hover {
-  text-decoration: none;
+	text-decoration: none;
 	color: #0DAAFF
 }

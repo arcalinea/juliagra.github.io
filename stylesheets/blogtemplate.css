@@ -89,25 +89,25 @@ footer .menu {
 
 footer .menu ul {
 	position: relative;
-  height: auto;
-  padding: 0px;
-	padding-top: 10px;
-  margin: 11px;
+	height: auto;
+  	padding: 0px;
+	padding-top: 3px;
+  	margin: 11px;
 }
 
 footer .menu ul li {
-  text-align: left;
-  padding-top: 8px;
+ 	text-align: left;
+ 	padding-top: 6px;
 	padding-left: 6px;
 	list-style-type: none;
 }
 
 footer .menu ul li a:link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 footer .menu ul li a:hover {
-  text-decoration: none;
+	text-decoration: none;
 	color: #0DAAFF
 }
 
