@@ -38,8 +38,8 @@ h3 {
   margin: 0;
 }
 
-
-#posts ul {
+/**
+.posts ul {
 	width: 515px;
 	height: 360px;
 	font-family: Helvetica, sans-serif;
@@ -52,13 +52,60 @@ h3 {
 	opacity: 0.8;
 	line-height: 1.3em;
 	padding-top: 20px;
+} How do you do a wildcard so CSS for all post#'s are replicated? **/
+
+.posts #post1 {
+	width: 515px;
+	height: 100px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	background-color: #D4D9FA;
+	position: relative;
+	left: 20%;
+	top: 0%;
+	opacity: 0.8;
+	line-height: 1.3em;
+	padding-top: 20px;
 }
 
-#posts ul li a:link {
+.posts #post3 {
+	width: 515px;
+	height: 100px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	background-color: #D4D9FA;
+	position: relative;
+	left: 20%;
+	top: 0%;
+	opacity: 0.8;
+	line-height: 1.3em;
+	padding-top: 20px;
+}
+
+.posts #post3 {
+	width: 515px;
+	height: 100px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	background-color: #D4D9FA;
+	position: relative;
+	left: 20%;
+	top: 0%;
+	opacity: 0.8;
+	line-height: 1.3em;
+	padding-top: 20px;
+}
+
+
+
+.posts a:link {
 	text-decoration: none;
 }
 
-#posts ul li a:hover {
+.posts a:hover {
 	text-decoration: none;
 	color: #0DAAFF;
 }
