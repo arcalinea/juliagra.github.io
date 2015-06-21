@@ -72,8 +72,8 @@ li {
 	opacity: 0.9;
 	width: 75px;
 	height: 200px;
-	bottom: 45%;
-	left: 0%;
+	bottom: 25%;
+	left: 5%;
 	position: absolute;
 }
 
@@ -136,7 +136,7 @@ div .logo img {
 	position: absolute;
 	margin: 0;
 	left: 12%;
-	bottom: 27%;
+	bottom: 55%;
 }
 
 .shapes #blog {
