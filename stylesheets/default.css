@@ -139,6 +139,15 @@ div .logo img {
 	bottom: 55%;
 }
 
+#julia img {
+	height: 10em;
+	width: 10em;
+	position: absolute;
+	margin: 0;
+	right: 20%;
+	bottom: 30%;
+}
+
 .shapes #blog {
     position: fixed;
     margin: 0;
