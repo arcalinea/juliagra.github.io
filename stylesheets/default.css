@@ -140,12 +140,13 @@ div .logo img {
 }
 
 #julia img {
-	height: 10em;
-	width: 10em;
+	height: 8em;
+	width: 8em;
 	position: absolute;
 	margin: 0;
-	right: 20%;
-	bottom: 30%;
+	left: 27%;
+	bottom: 35%;
+	opacity: 0.6;
 }
 
 .shapes #blog {
