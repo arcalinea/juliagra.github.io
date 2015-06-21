@@ -130,6 +130,15 @@ div .logo img {
 	bottom: 25%;
 }
 
+#dodeca img {
+	height: 15em;
+	width: 15em;
+	position: absolute;
+	margin: 0;
+	left: 12%;
+	bottom: 27%;
+}
+
 .shapes #blog {
     position: fixed;
     margin: 0;
