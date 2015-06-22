@@ -34,28 +34,31 @@ li {
 }
 
 .menu {
-	width: 450px;
-	height: 35px;
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
-	text-align: center;
-	background-color: #D4D9FA;
-	position: absolute;
-	left: 34%;
-	bottom: 20%;
-	transform: translate(0, -50%);
-	opacity: 0.8;
+    width: 6.3em;
+    height: 6.3em;
+    font-family: Helvetica,sans-serif;
+    font-weight: bold;
+    text-align: left;
+    background-color: #CFDEFA;
+    position: fixed;
+    right: 11%;
+    bottom: 37%;
+    opacity: 0.8;
 }
 
 .menu ul {
+	position: relative;
 	height: auto;
-	padding: 8px 0px;
-	margin: 0px;
+	padding: 0px;
+	padding-top: 3px;
+	margin: 11px;
 }
 
-.menu li {
-	display: inline;
-	padding: 20px;
+.menu ul li {
+	text-align: left;
+	padding-top: 6px;
+	padding-left: 6px;
+	list-style-type: none;
 }
 
 .menu li a:link {
@@ -81,12 +84,16 @@ li {
 **/
 
 #social-menu ul {
+	display: block;
+	position: absolute;
+	left: 41%;
+	bottom: 25%;
 	padding-left: 15px;
 }
 
 #social-menu ul li {
-	padding: 3px;
-	display: block;
+	padding: 10px;
+	display: inline-block;
 	text-decoration: none;
 } 
 
@@ -129,8 +136,8 @@ div .logo img {
 	width: 10em;
 	position: absolute;
 	margin: 0;
-	right: 12%;
-	bottom: 25%;
+	right: 10%;
+	bottom: 35%;
 }
 
 #dodeca img {
@@ -147,9 +154,9 @@ div .logo img {
 	width: 8em;
 	position: absolute;
 	margin: 0;
-	left: 27%;
-	bottom: 35%;
-	opacity: 0.6;
+	left: 70%;
+	bottom: 15%;
+	opacity: 0.7;
 }
 
 .shapes #blog {
@@ -166,4 +173,3 @@ div .logo img {
 	padding-left: 8px;
 	padding-right: 8px;
 }
-
