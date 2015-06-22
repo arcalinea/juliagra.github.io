@@ -220,3 +220,64 @@ div .logo img {
 		left: 35%;
 	}
 }
+
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+	.logo img {
+		width: 12em;
+		height: 12em;
+	}
+	#julia img {
+		position: absolute;
+		bottom: 5%;
+		left: 75%;
+	}
+	#cube img {
+		position: absolute;
+		left: 20%;
+		bottom: 6%;
+	}
+	#pyramid img {
+		right: 3%;
+		bottom: 29%;
+	}
+	.menu {
+		left: 26%;
+		bottom: 8%;
+	}
+}
+
+/** Media query for table **/
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+	#dodeca img {
+		width: 11em;
+		height: 11em;
+		position: absolute;
+	}
+	.logo img {
+		width: 12em;
+		height: 12em;
+	}
+	#julia img {
+		position: absolute;
+		bottom: 5%;
+		left: 75%;
+		width: 10em;
+		height: 10em;
+	}
+	#cube img {
+		position: absolute;
+		left: 20%;
+		bottom: 6%;
+	}
+	#pyramid img {
+		right: 3%;
+		bottom: 29%;
+	}
+	.menu {
+		left: 26%;
+		bottom: 8%;
+	}
+
+}
