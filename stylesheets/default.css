@@ -179,3 +179,44 @@ div .logo img {
 	padding-left: 8px;
 	padding-right: 8px;
 }
+
+/** Media query for mobile below **/
+@media (max-width: 600px) {
+	#dodeca img {
+		width: 7.5em;
+		height: 7.5em;
+		position: absolute;
+		top: 10px;
+	}
+	#julia img {
+		display: none;
+	}
+	.logo img {
+		width: 10em;
+		height: 10em;
+	}
+	#pyramid img {
+		width: 7em;
+		height: 7em;
+		position: absolute;
+		left: 7%;
+		bottom: 6%;
+	}
+	#cube img {
+		width: 7em;
+		height: 7em;
+		position: absolute;
+		left: 30%;
+		bottom: 3%;
+	}
+	.menu {
+		width: 20em;
+		height: 2em;
+		position: absolute;
+		left: 25%;
+		bottom: 15%;
+	}
+	#social-menu ul {
+		left: 35%;
+	}
+}
