@@ -133,8 +133,8 @@ h3 {
 }
 
 #cube img {
-	height: 10em;
-	width: 10em;
+	height: 10.2em;
+	width: 10.2em;
 	position: absolute;
 	margin: 0;
 	right: 7%;
@@ -142,31 +142,31 @@ h3 {
 }
 
 footer .menu {
-    width: 8em;
-    height: 8em;
+    width: 6.3em;
+    height: 6.3em;
     font-family: Helvetica,sans-serif;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     background-color: #CFDEFA;
     position: fixed;
-    right: 22%;
-    bottom: 15%;
+    right: 7.7%;
+    bottom: 26.3%;
     opacity: 0.8;
 }
 
 footer .menu ul {
 	position: relative;
 	height: auto;
-	padding: 0px;
-	padding-top: 3px;
-	margin: 11px;
+	margin: 3px;
+	padding-left: 0px;
 }
 
 footer .menu ul li {
 	text-align: left;
-	padding-top: 6px;
-	padding-left: 6px;
 	list-style-type: none;
+	margin: 0px;
+	padding: 3px;
+	display: inline-block;
 }
 footer .menu ul li a:link {
 	text-decoration: none;
