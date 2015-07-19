@@ -19,8 +19,8 @@
       <p>There are different ways to iterate over an array and perform an operation. Map (also called 'collect') can be used, as well as 'each'. I will focus on the uses of the enumerable method 'map.</p>
       <p>Map returns a new array with the results of running an operation on each element. This is useful when you want your method to be non-destructive. The new array is the same size as the old one, but contains the return values that result from executing the code block on the original array. Map can be used on arrays, hashes, and ranges, but always returns an array.</p>
       <p>For example, you could use map on an array of strings to return a new array with just the string lengths.</p>
-      <p><script src="https://gist.github.com/juliagra/b78c017bddf6e087acbd.js"></script></p>
       <p>Writing map with an exclamation point as “map!”, will modify the original array, making the method destructive. </p>
+      <p><script src="https://gist.github.com/juliagra/b78c017bddf6e087acbd.js"></script></p>
       <p>A note on syntax for map: Using 'puts' to output the result of map to the screen prints out the result, but the values of the new array will be nil. To actually return new values, leave out the puts in the block.</p>
       <p>In contrast to 'map', the 'each' method always returns the original array. It modifies elements within the code block, but will output the original array. </p>
     </section>
