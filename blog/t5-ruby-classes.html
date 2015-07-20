@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <title>How to Use Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/blogtemplate.css">
+</head>
+
+<main>
+  <img class="sky-background" src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/background.jpg">
+
+  <article>
+    <h1>How to Use Classes</h1>
+    <h2></h2>
+    <h4>July 20, 2015</h4>
+    <br>
+
+    <section>
+     <h4></h4>
+      <p>In Ruby, classes are a way to group methods and variables into bundles in order to create objects that behave in similar ways. You can create objects that are 'instances' of classes, and those objects will start out with the behaviors that the class has been defined with.</p>
+      <p>Within a class, you can use 'instance variables' to enable individual objects to remember state. Instance variables are only visible within the object to which they belong, and start with an "@" symbol. They can be called by methods within the class, but not from outisde it.</p>
+      <p>'Instance Methods' are like 'instance variables' in that they only work on an instance of a class. You have to create a new object that is an instance of a class in order to call them on it.</p>
+      <p>Below is an example of the creation of a class "Elements." Any object instantiated as a member of the "Elements" class will come with the behaviors defined within the class. To create a new object, you will have to pass in an argument with the element's symbol. The method "initialize" turns this symbol into an instance variable that we can use throughout the class. In the method "name", we create a hash with the full name of the element, and return the full name when the instance variable "@element" is passed in. In the method "print", we output a sentence that gives the full name of the element.</p>
+      <p><script src="https://gist.github.com/juliagra/d81afd31594e31a0c70f.js"></script></p>
+      <p>Our "print" method accesses the instance variable "@element" to print it, and calls the method "name" on the object itself. The word "self" is self-referential, and simply refers to that particular instance of the class.</p>
+      <p>Using instance variables and instance methods within a class, we could define all sorts of behaviors for objects instantiated as Elements. We could return the atomic number, return the atomic mass, calculate the molar mass given the mass of the sample, and so on. Hopefully this example begins to demonstrate the usefulness of classes in Ruby.</p>
+    </section>
+  </article>
+
+
+  <footer>
+    <div class="menu">
+        <ul>
+          <li id="about">
+            <a href="http://juliagra.github.io/">About</a>
+          </li>
+          <li id="blog">
+            <a href="http://juliagra.github.io/blog/bloghome.html">Blog</a>
+          </li>
+          <li id="illustrations">
+            <a href="#">Illustrations</a>
+          </li>
+          <li id="projects">
+            <a href="#">Projects</a>
+          </li>
+        </ul>
+    </div>
+  </footer>
+
+</main>
