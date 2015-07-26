@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <title>Variable Scope</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/blogtemplate.css">
+</head>
+
+<main>
+  <img class="sky-background" src="https://raw.githubusercontent.com/juliagra/juliagra.github.io/master/imgs/background.jpg">
+
+  <article>
+    <h1>Variable Scope</h1>
+    <h2></h2>
+    <h4>July 25, 2015</h4>
+    <br>
+
+    <section>
+     <h4>Variables in Ruby</h4>
+     <ul>
+      <li>Constants - VAR</li>
+      <li>Global variables - $var</li>
+      <li>Class variables - @@var</li>
+      <li>Instance variables - @var</li>
+      <li>Local variables – var</li>
+     </ul>
+      <p>Constants are variables which stay constant throughout and should not be changed. Ruby, unlike most programming languages, allows you to forcibly change constants once they've been declared, although the interpreter will display a warning message. Constants declared within a class or module anywhere within that class or module, and constants declared outside are automatically assigned global scope. </p>
+      <p>Global variables have global scope, which means they are available throughout the entire program. They start with a “$” dollar-sign character. Once initialized, they can be accessed from within modules, classes, and methods. Ruby already has many built-in global variables. It can seem appealing to create your own global variables so you can access their information in different classes, but there are drawbacks. Overuse of global variables undermines good design. In object-oriented programming, data and actions are supposed to be encapsulated in objects. Global variables can be accessed and also changed from anywhere in the application, making tracking bugs difficult. For this reason, it's good to avoid the use of global variables while learning to code in Ruby. </p>
+      <p>Class variables begin with two 'at' signs, like “@@var”. They store information within a class and instances of a class, but are not visible anywhere else. Class variables are not used as often as instance variables. They are best used for application configuration— things like app name, version, database, and other settings. A class variable is shared across all instance of the class, and throughout the inheritance chain, so if you change it in an inherited class, those changes will be reflected throughout, possibly causing problems. For this reason, it's often better to use instance variables. </p>
+      <p>Instance variables maintain the state for each instance of the class, and are written with one 'at' sign, like “@var.” If a class contains an instance variable, and one instance of the object changes the current value of the variable, the change is local to the object that made the change. You normally can't access an instance variable from outside of the object, unless you declare an accessor method. Accessor methods wrap the instance variable in a method that allows you to retrieve or change the value of the variable from outside the object. </p>
+      <p>Local variables have local scope, meaning they only apply to their local block or method. You can use a local variable like “x” to hold information temporarily, then reuse it in another block with no conflicts. Local variables must begin with an underscore or a lower-case letter. Words in local variables are separated by underscores, like “local_var.”
+</p>
+    </section>
+  </article>
+
+
+  <footer>
+    <div class="menu">
+        <ul>
+          <li id="about">
+            <a href="http://juliagra.github.io/">About</a>
+          </li>
+          <li id="blog">
+            <a href="http://juliagra.github.io/blog/bloghome.html">Blog</a>
+          </li>
+          <li id="illustrations">
+            <a href="#">Illustrations</a>
+          </li>
+          <li id="projects">
+            <a href="#">Projects</a>
+          </li>
+        </ul>
+    </div>
+  </footer>
+
+</main>
