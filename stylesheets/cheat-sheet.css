@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    color: purple;
+    font-family: Arial, Sans-Serif; 
+}
+
+h2 {
+    color: purple;
+    font-family: Arial, Sans-Serif;
+    font-size: 1.25em;
+}
+
+p {
+    font-family: Arial, Sans-Serif;
+    font-size: 1em;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {
+    color: #555555;
+    text-decoration: none;
+   
+}
+
+a:hover {
+    color: #1111a3;
+}
