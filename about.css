@@ -143,13 +143,14 @@ div .logo img {
 }
 
 #pyramid img {
-    height: 10em;
-    width: 10em;
+    height: 20em;
+    width: 20em;
     position: absolute;
     margin: 0;
-		right: 15%;
-		bottom: 35%;
-		transform: translate(0, -50%);
+	right: 8%;
+	bottom: 14%;
+	opacity: 0.6;
+	transform: translate(0, -50%);
 }
 
 #cube img {
@@ -162,12 +163,13 @@ div .logo img {
 }
 
 #dodeca img {
-	height: 15em;
-	width: 15em;
+	height: 25em;
+	width: 25em;
 	position: absolute;
 	margin: 0;
-	left: 12%;
-	bottom: 55%;
+	left: 6%;
+	bottom: 50%;
+	opacity: 0.5;
 }
 
 #julia img {
