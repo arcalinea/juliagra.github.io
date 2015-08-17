@@ -93,11 +93,12 @@ a.pure-button-primary {
 .home-menu {
     padding: 0.5em;
     text-align: center;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    box-shadow: none;
 }
 .home-menu {
-    background: #2d3e50;
+    background: transparent;
 }
+
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
@@ -159,7 +160,7 @@ a.pure-button-primary {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    border: 3px solid white;
+    border: none;
     padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
@@ -169,6 +170,7 @@ a.pure-button-primary {
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     color: white;
+    font-size: 1.5em;
     letter-spacing: 0.05em;
     opacity: 0.8;
 }
@@ -211,7 +213,7 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
+    background: #1f8dd1;
     color: #aaa;
 }
 
