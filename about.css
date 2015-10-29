@@ -1,3 +1,8 @@
+.splash-subhead .fa {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .sky-background {
 	background-size: cover;
 	position: fixed;
