@@ -14,12 +14,21 @@ Adding tweaks
 }
 
 .fa {
-    color: black;
+    color: white;
 }
 
 .splash-subhead .fa {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.splash {
+    width: 50%;
+    height: 250px;
+    background-color: rgb(4, 21, 72);
+    opacity: 0.8;
+    z-index: 1;
+    position: absolute;
 }
 
 
@@ -181,10 +190,10 @@ a.pure-button-primary {
     font-weight: bold;
     color: white;
     border: none;
-    padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
+    padding-top: 1em;
 }
 
 /* This is the subheading that appears on the blue section */
