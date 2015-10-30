@@ -14,7 +14,7 @@ Adding tweaks
 }
 
 .fa {
-    color: white;
+    color: #041548;
 }
 
 .splash-subhead .fa {
@@ -25,10 +25,10 @@ Adding tweaks
 .splash {
     width: 50%;
     height: 250px;
-    background-color: rgb(4, 21, 72);
+/*    background-color: rgb(4, 21, 72);
     opacity: 0.8;
     z-index: 1;
-    position: absolute;
+    position: absolute;*/
 }
 
 
