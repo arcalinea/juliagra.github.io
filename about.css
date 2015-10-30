@@ -3,6 +3,10 @@
 	padding-top: 30px;
 }
 
+.splash-container {
+	height: 100%;
+}
+
 .fa {
 	color: black;
 }
